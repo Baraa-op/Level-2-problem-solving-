@@ -1,4 +1,4 @@
-//Advanced-20- 2
+//Advanced-21- 2
 #include <iostream>
 #include <string>
 #include <cmath>
@@ -83,7 +83,7 @@ void Keys_Number(int Number)
 {
     for(int i = 1 ; i<=Number ; i++)
     {
-        cout << Kay_Generate() << "\n" ;
+        cout << "Key [" << i << "] : " << Kay_Generate() << "\n" ;
     }
 }
 
